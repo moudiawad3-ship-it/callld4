@@ -1,109 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>تحديثات CALD Accounting</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Tahoma, sans-serif;
-      background: #f5f7fa;
-      color: #222;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    .header {
-      background: white;
-      padding: 30px;
-      border-radius: 16px;
-      text-align: center;
-      margin-bottom: 25px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-    }
-
-    .header h1 {
-      margin: 0 0 10px;
-      font-size: 28px;
-    }
-
-    .header p {
-      margin: 0;
-      color: #666;
-    }
-
-    .update {
-      background: white;
-      padding: 25px;
-      border-radius: 16px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-    }
-
-    .version {
-      font-size: 21px;
-      font-weight: bold;
-      margin-bottom: 6px;
-    }
-
-    .date {
-      color: #777;
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    .update ul {
-      margin: 0;
-      padding-right: 22px;
-      line-height: 2;
-    }
-
-    .footer {
-      text-align: center;
-      color: #888;
-      font-size: 13px;
-      margin-top: 30px;
-    }
-  </style>
-</head>
-
-<body>
-
-  <div class="container">
-
-    <div class="header">
-      <h1>CALD Accounting System</h1>
-      <p>سجل تحديثات برنامج المحاسبة</p>
-    </div>
-
-    <div class="update">
-      <div class="version">الإصدار 1.0.0</div>
-      <div class="date">21 سبتمبر 2026</div>
-
-      <ul>
-        <li>إطلاق نظام CALD Accounting System.</li>
-        <li>ربط النظام بقاعدة بيانات Neon PostgreSQL.</li>
-        <li>إضافة نظام تسجيل الدخول.</li>
-        <li>إضافة ميزة تحديثات البرنامج.</li>
-      </ul>
-    </div>
-
-    <div class="footer">
-      CALD Accounting System © 2026
-    </div>
-
-  </div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <title>CALD Accounting - مركز التوحد والصعوبات التعلمية</title>
+    <meta name="description" content="برنامج محاسبة متكامل لجمعية مركز التوحد والصعوبات التعلمية CALD بفرعي المنية وحلبا" />
+    <meta property="og:title" content="CALD Accounting - مركز التوحد والصعوبات التعلمية" />
+    <meta property="og:description" content="برنامج محاسبة متكامل لجمعية مركز التوحد والصعوبات التعلمية CALD بفرعي المنية وحلبا" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased font-['Cairo',system-ui,sans-serif]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
+
